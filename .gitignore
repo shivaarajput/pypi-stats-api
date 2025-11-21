@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Byte-compiled / optimized
+*.py[cod]
+*$py.class
+
+# --- Environment Files ---
+.env
+.env.* 
+!.env.example
+
+# --- FastAPI / Uvicorn ---
+*.log
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Vercel ---
+.vercel/
+
+# --- Misc ---
+*.cache
