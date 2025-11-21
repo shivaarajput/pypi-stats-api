@@ -36,7 +36,7 @@ pip install fastapi uvicorn httpx
 Start the API locally using Uvicorn:
 
 ```bash
-uvicorn main:app --reload
+uvicorn api.index:app --reload
 ```
 
 By default, the API will run at:
